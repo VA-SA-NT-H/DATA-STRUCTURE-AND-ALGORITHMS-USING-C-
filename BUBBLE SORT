@@ -51,3 +51,15 @@ else
  flag=1;
 }
 }
+int main()
+{
+Bubble B;
+clrscr();
+B.GetData();
+B.BubbleSort();
+cout<<"\n\t The Sorted Array";
+cout<<"\n\t **************\n";
+B.Display();
+getch();
+return 0;
+}
